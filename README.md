@@ -4,8 +4,8 @@ This OTP Verification System is a simple simulation of a server that generates a
 
 Server (server.py): Generates OTPs and verifies them upon client requests.
 Client (client.py): Periodically requests new OTPs from the server every 30 seconds.
-End-User (user_input.py): Allows a user to manually input an OTP to be verified by the server.
-
+End-User (user_input.py): Allows a user to input an OTP to be verified by the server manually.
+		
 # Features
 OTP Generation: Dynamically generate a TOTP based on a fixed secret key.
 OTP Verification: Validate the OTP entered by the end-user against the server.
